@@ -35,7 +35,12 @@ body {
   color: #777;
   background: #fff;
 }
-
+.orange {
+    color: orange;
+}
+.blue {
+    color: #9bdbee;
+}
 #page {
   position: relative;
   overflow-x: hidden;

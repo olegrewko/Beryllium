@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 ::selection {
   color: $brand-white;
-  background: $brand-special;
+  background: $brand-warning;
 }
 
 .gtco-container {
@@ -519,7 +519,10 @@ h1, h2, h3, h4, h5, h6, figure {
 	margin-bottom: 0!important;
 	width: 100%;
 	float: left;
+}
+   
 	a {
+        color: orange!important;
 		&:hover {
 			color: $brand-white!important;
 		}
@@ -1229,9 +1232,9 @@ blockquote {
 	}
 }
 .btn-info {
-	background: $brand-info;
+	background: $brand-primary;
 	color: $brand-white;
-	border: 2px solid $brand-info;
+	border: 0px solid $brand-primary;
 	&:hover, &:focus, &:active {
 		background: darken($brand-info, 5%)!important;
 		border-color: darken($brand-info, 5%)!important;

@@ -344,7 +344,7 @@ textarea {
 }
 
 a {
-  color: $btn-info-bg;
+  color: $brand-warning;
   text-decoration: none;
 }
 a:hover, a:focus {
